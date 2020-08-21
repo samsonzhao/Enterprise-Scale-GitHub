@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/6b3fd1ee-b754-4baf-82a0-393f59896e7c",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "6b3fd1ee-b754-4baf-82a0-393f59896e7c",
+        "TenantId": "6b3fd1ee-b754-4baf-82a0-393f59896e7c",
+        "DisplayName": "Tenant Root Group",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/8055518a-214c-41fd-a656-0c9ff05f0385",
+            "Name": "8055518a-214c-41fd-a656-0c9ff05f0385",
+            "DisplayName": "Visual Studio Enterprise",
+            "Children": null
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": [],
+          "roleAssignments": []
+        }
+      }
+    }
+  }
+}
